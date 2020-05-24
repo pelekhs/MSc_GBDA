@@ -1,7 +1,11 @@
-train_size: 18900
-test_size: 4050
-valid_size: 4050
-TRAIN
+{
+"SPLIT":
+ {
+  "train_size": 18900,
+  "test_size": 4050,
+  "valid_size": 4050
+},
+"TRAIN":
  {
   "AnnualCrop": 2093,
   "Forest": 2084,
@@ -13,8 +17,8 @@ TRAIN
   "Residential": 2103,
   "River": 1766,
   "SeaLake": 2117
-}
-TEST
+},
+"TEST":
  {
   "AnnualCrop": 452,
   "Forest": 462,
@@ -26,8 +30,8 @@ TEST
   "Residential": 456,
   "River": 375,
   "SeaLake": 407
-}
-VALID
+},
+"VALID":
  {
   "AnnualCrop": 455,
   "Forest": 454,
@@ -39,4 +43,5 @@ VALID
   "Residential": 441,
   "River": 359,
   "SeaLake": 476
+}
 }
